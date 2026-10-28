@@ -1,0 +1,237 @@
+/* ==========================================================================
+   HOME SPACE INTERIORS - Luxury Turnkey Interior Architectural Website
+   Brand Identity: Deep Emerald Teal (#0B3B32), Warm Metallic Gold (#C5A059)
+   Founder: Hashim (Interior Designer & Consultant)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --brand-dark: #06241E;
+  --brand-teal: #0B3B32;
+  --brand-light: #145348;
+  --brand-gold: #C5A059;
+  --brand-gold-light: #DFBE7A;
+  --brand-gold-dark: #9E7E3C;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  color: #0F172A;
+  background-color: #F8FAFC;
+}
+
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-heading {
+  font-family: 'Outfit', 'Poppins', sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9E7E3C;
+}
+
+/* Floating Glass Navigation */
+.nav-glass {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+  transition: all 0.3s ease;
+}
+
+.nav-glass.scrolled {
+  box-shadow: 0 10px 30px -5px rgba(6, 36, 30, 0.12);
+  border-bottom-color: rgba(197, 160, 89, 0.35);
+}
+
+/* Hero Glassmorphism */
+.hero-glass {
+  background: rgba(6, 36, 30, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(197, 160, 89, 0.3);
+}
+
+/* Gold Gradient Text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FDE68A 0%, #C5A059 50%, #F59E0B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Interactive Room Hotspots */
+.hotspot-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #C5A059;
+  border: 2px solid #FFFFFF;
+  color: #06241E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease, background 0.25s ease;
+  position: relative;
+}
+.hotspot-dot:hover {
+  transform: scale(1.15);
+  background: #DFBE7A;
+}
+.hotspot-dot::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2px solid rgba(197, 160, 89, 0.7);
+  animation: hotspot-pulse 2s infinite;
+}
+@keyframes hotspot-pulse {
+  0% { transform: scale(0.9); opacity: 1; }
+  100% { transform: scale(1.7); opacity: 0; }
+}
+
+/* Bento Grid Cards */
+.bento-card {
+  position: relative;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 10px 30px -5px rgba(11, 59, 50, 0.06);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.bento-card:hover {
+  transform: translateY(-5px);
+  border-color: #C5A059;
+  box-shadow: 0 25px 50px -12px rgba(11, 59, 50, 0.16);
+}
+
+/* Professional Buttons */
+.btn-emerald {
+  background: linear-gradient(135deg, #0B3B32 0%, #06241E 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(197, 160, 89, 0.4);
+  transition: all 0.25s ease;
+}
+.btn-emerald:hover {
+  background: linear-gradient(135deg, #145348 0%, #0B3B32 100%);
+  border-color: #C5A059;
+  box-shadow: 0 8px 25px rgba(11, 59, 50, 0.35);
+  transform: translateY(-2px);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #DFBE7A 0%, #C5A059 100%);
+  color: #06241E;
+  font-weight: 700;
+  transition: all 0.25s ease;
+}
+.btn-gold:hover {
+  background: linear-gradient(135deg, #EAD196 0%, #DFBE7A 100%);
+  box-shadow: 0 8px 25px rgba(197, 160, 89, 0.45);
+  transform: translateY(-2px);
+}
+
+.btn-whatsapp {
+  background: #25D366;
+  color: #FFFFFF;
+  font-weight: 700;
+  transition: all 0.25s ease;
+}
+.btn-whatsapp:hover {
+  background: #1FB855;
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
+  transform: translateY(-2px);
+}
+
+/* Before / After Slider Component */
+.before-after-container {
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  border-radius: 1.5rem;
+  box-shadow: 0 25px 50px -12px rgba(11, 59, 50, 0.25);
+}
+
+.before-image-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.before-after-handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #FFFFFF;
+  cursor: ew-resize;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+
+.before-after-handle-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #0B3B32;
+  border: 3px solid #FFFFFF;
+  color: #C5A059;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+  cursor: ew-resize;
+}
+
+/* WhatsApp Floating Pulse */
+@keyframes wa-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 18px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+.wa-float-btn {
+  animation: wa-pulse 2.2s infinite;
+}
+
+/* Lightbox Modal */
+.lightbox-overlay {
+  background: rgba(6, 36, 30, 0.95);
+  backdrop-filter: blur(16px);
+}

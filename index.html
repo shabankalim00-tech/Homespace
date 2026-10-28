@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Space Interiors | Hashim - Interior Designer & Consultant | Delhi NCR & Noida</title>
+  <meta name="description" content="Home Space Interiors by Hashim. Premium turnkey interior design, modular kitchen, designer wardrobe, false ceiling, UPVC & civil work across Delhi NCR & Noida. 10-Yr warranty & 45-day handover guarantee.">
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Google Fonts: Outfit (Luxurious Modern Headings) + Inter (Readable Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              DEFAULT: '#0B3B32', // Deep Emerald Teal from Visiting Card
+              dark: '#06241E',
+              light: '#145348',
+              gold: '#C5A059',   // Warm Metallic Gold from Card
+              goldLight: '#DFBE7A',
+              goldDark: '#9E7E3C',
+            }
+          },
+          fontFamily: {
+            heading: ['Outfit', 'Poppins', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="overflow-x-hidden font-body text-slate-800 bg-[#F8FAFC] antialiased selection:bg-brand-gold selection:text-brand-dark">
+
+  <!-- 1. Top Announcement Bar -->
+  <div class="bg-brand-dark text-slate-200 py-2.5 px-4 text-xs border-b border-brand-gold/20">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2 text-center md:text-left">
+      <div class="flex items-center gap-3">
+        <span class="flex items-center gap-1.5 text-brand-gold font-semibold">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
+          <span>Delhi NCR | Noida (U.P.)</span>
+        </span>
+        <span class="hidden sm:inline text-slate-500">•</span>
+        <span class="hidden sm:flex items-center gap-1.5 text-emerald-400 font-medium">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>Hashim available for site visits in Noida & Delhi NCR today</span>
+        </span>
+      </div>
+
+      <div class="flex items-center gap-5 font-medium">
+        <a href="tel:+919711257834" class="flex items-center gap-1.5 text-white hover:text-brand-gold transition">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5 text-brand-gold"></i>
+          <span>Call: +91 9711257834</span>
+        </a>
+        <a href="https://wa.me/917292043299" target="_blank" class="flex items-center gap-1.5 text-emerald-400 hover:text-white transition font-bold">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+          <span>WhatsApp: +91 7292043299</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Sticky Glass Navigation Bar -->
+  <header id="main-navbar" class="nav-glass sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between min-h-[76px] h-20 gap-3">
+        
+        <!-- Brand Monogram & Name (Strictly Single Line, No Wrapping) -->
+        <a href="#" class="flex items-center gap-2.5 sm:gap-3 group shrink-0">
+          <div class="w-10 h-10 sm:w-11 sm:h-11 bg-brand rounded-xl border-2 border-brand-gold flex items-center justify-center text-brand-gold font-heading font-extrabold text-base sm:text-lg shadow-md group-hover:scale-105 transition shrink-0">
+            HS
+          </div>
+          <div class="whitespace-nowrap shrink-0">
+            <div class="font-heading font-extrabold text-base sm:text-lg text-brand tracking-tight leading-tight whitespace-nowrap">
+              HOME SPACE INTERIORS
+            </div>
+            <div class="text-[10px] sm:text-[11px] text-slate-500 font-medium tracking-wide whitespace-nowrap mt-0.5">
+              Hashim <span class="text-slate-400">•</span> <span class="text-brand-gold font-semibold">Interior Designer & Consultant</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links (Single-Line, Compact Spacing, Clean Typography) -->
+        <nav class="hidden xl:flex items-center space-x-5 2xl:space-x-7 text-xs 2xl:text-sm font-semibold text-slate-700 font-heading shrink-0">
+          <a href="#room-tour" class="whitespace-nowrap hover:text-brand transition flex items-center gap-1">
+            <i data-lucide="layout-grid" class="w-3.5 h-3.5 text-brand-gold"></i>
+            <span>Room Tour</span>
+          </a>
+          <a href="#before-after" class="whitespace-nowrap hover:text-brand transition">
+            <span>Before & After</span>
+          </a>
+          <a href="#services" class="whitespace-nowrap hover:text-brand transition">
+            <span>Services</span>
+          </a>
+          <a href="#planner" class="whitespace-nowrap text-brand-dark font-bold hover:text-brand-gold flex items-center gap-1 bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200">
+            <i data-lucide="calculator" class="w-3.5 h-3.5 text-brand-gold"></i>
+            <span>Scope Planner</span>
+          </a>
+          <a href="#about" class="whitespace-nowrap hover:text-brand transition">
+            <span>About Hashim</span>
+          </a>
+          <a href="#portfolio" class="whitespace-nowrap hover:text-brand transition">
+            <span>Portfolio</span>
+          </a>
+          <a href="#contact" class="whitespace-nowrap hover:text-brand transition">
+            <span>Contact</span>
+          </a>
+        </nav>
+
+        <!-- Right Action Buttons (Whitespace Nowrap, Never Breaks Onto 2 Lines) -->
+        <div class="hidden sm:flex items-center gap-2.5 shrink-0 whitespace-nowrap">
+          <a href="tel:+919711257834" class="btn-emerald px-3.5 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-sm shrink-0 whitespace-nowrap">
+            <i data-lucide="phone" class="w-3.5 h-3.5 text-brand-gold"></i>
+            <span class="whitespace-nowrap">Call Now</span>
+          </a>
+          <a href="https://wa.me/917292043299" target="_blank" class="btn-whatsapp px-3.5 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-sm shrink-0 whitespace-nowrap">
+            <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+            <span class="whitespace-nowrap">WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- Mobile / Tablet Hamburger Button -->
+        <div class="xl:hidden flex items-center gap-2 shrink-0">
+          <a href="tel:+919711257834" class="btn-emerald p-2 rounded-lg text-white" aria-label="Call">
+            <i data-lucide="phone" class="w-4 h-4"></i>
+          </a>
+          <a href="https://wa.me/917292043299" target="_blank" class="btn-whatsapp p-2 rounded-lg text-white" aria-label="WhatsApp">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+          </a>
+          <button id="mobile-menu-btn" class="p-2 text-slate-700 hover:text-brand rounded-lg" aria-label="Menu">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Slide-over Drawer -->
+    <div id="mobile-menu" class="hidden fixed inset-0 z-50 bg-slate-950/95 text-white p-6 flex flex-col justify-between backdrop-blur-lg">
+      <div>
+        <div class="flex items-center justify-between pb-6 border-b border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <div class="w-10 h-10 bg-brand text-brand-gold rounded-lg border border-brand-gold flex items-center justify-center font-heading font-bold">HS</div>
+            <div>
+              <div class="font-heading font-bold text-base leading-tight">HOME SPACE INTERIORS</div>
+              <div class="text-[10px] text-brand-gold">Hashim • Designer & Consultant</div>
+            </div>
+          </div>
+          <button id="mobile-menu-close" class="p-2 text-slate-400 hover:text-white">
+            <i data-lucide="x" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+        <nav class="flex flex-col space-y-4 mt-8 text-lg font-heading font-medium">
+          <a href="#room-tour" class="mobile-nav-link text-slate-200 hover:text-brand-gold flex items-center gap-2">
+            <i data-lucide="layout-grid" class="w-5 h-5 text-brand-gold"></i> Interactive Room Tour
+          </a>
+          <a href="#before-after" class="mobile-nav-link text-slate-200 hover:text-brand-gold">Before & After Slider</a>
+          <a href="#services" class="mobile-nav-link text-slate-200 hover:text-brand-gold">All 10 Specialized Services</a>
+          <a href="#planner" class="mobile-nav-link text-brand-gold font-bold flex items-center gap-2">
+            <i data-lucide="compass" class="w-5 h-5"></i> Scope & Material Planner
+          </a>
+          <a href="#about" class="mobile-nav-link text-slate-200 hover:text-brand-gold">About Hashim & Visiting Card</a>
+          <a href="#video-tour" class="mobile-nav-link text-slate-200 hover:text-brand-gold">Video Walkthroughs</a>
+          <a href="#portfolio" class="mobile-nav-link text-slate-200 hover:text-brand-gold">Recent Projects Gallery</a>
+          <a href="#contact" class="mobile-nav-link text-slate-200 hover:text-brand-gold">Contact Us</a>
+        </nav>
+      </div>
+
+      <div class="space-y-3 pt-6 border-t border-slate-800 font-heading text-sm">
+        <a href="tel:+919711257834" class="w-full btn-emerald py-3.5 rounded-xl flex items-center justify-center gap-2 font-bold">
+          <i data-lucide="phone" class="w-4 h-4 text-brand-gold"></i> Call Hashim: +91 9711257834
+        </a>
+        <a href="https://wa.me/917292043299" target="_blank" class="w-full btn-whatsapp py-3.5 rounded-xl flex items-center justify-center gap-2 font-bold">
+          <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp Hashim: +91 7292043299
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 3. Magazine Editorial Hero with Interior Video Background -->
+  <section class="relative bg-slate-950 py-16 lg:py-24 overflow-hidden border-b border-brand-gold/20 min-h-[85vh] flex items-center">
+    
+    <!-- Background Video Layer -->
+    <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+      <video id="hero-bg-video" autoplay loop muted playsinline poster="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=85" class="w-full h-full object-cover scale-105">
+        <source src="hero-bg.mp4" type="video/mp4">
+        <source src="living-walkthrough.mp4" type="video/mp4">
+        <source src="walkthrough.mp4" type="video/mp4">
+      </video>
+      
+      <!-- Gradient Overlays to keep text 100% sharp and readable -->
+      <div class="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/80 to-slate-950/65"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950/70"></div>
+    </div>
+
+    <!-- Ambient Glow Highlights -->
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-brand-light/20 rounded-full blur-3xl pointer-events-none z-[1]"></div>
+    <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-brand-gold/15 rounded-full blur-3xl pointer-events-none z-[1]"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Text Headline & Actions (7 cols) -->
+        <div class="lg:col-span-7 space-y-6 text-left">
+          
+          <!-- Trust Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full hero-glass border border-brand-gold/40 text-amber-200 text-xs font-heading font-semibold uppercase tracking-wider">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            A Complete Solution of Design | Residential • Commercial • Offices
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="font-heading text-4xl sm:text-6xl font-extrabold text-white leading-[1.1] tracking-tight">
+            Crafting Your Dream <br>
+            <span class="text-gold-gradient">Into Reality.</span>
+          </h1>
+
+          <!-- Subheading -->
+          <p class="text-slate-200 text-base sm:text-lg font-light leading-relaxed max-w-xl">
+            Full turnkey interiors designed & delivered in <strong>Delhi NCR & Noida</strong>. Factory-calibrated marine plywood, Hafele hardware, Gyproc false ceilings, UPVC & civil work managed personally on-site by <strong>Hashim</strong>.
+          </p>
+
+          <!-- Main CTA Buttons -->
+          <div class="flex flex-wrap items-center gap-3.5 pt-2">
+            <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20am%20looking%20for%20an%20interior%20quote%20for%20my%20property%20in%20Delhi%20NCR/Noida." target="_blank" class="btn-whatsapp px-7 py-3.5 rounded-xl text-xs sm:text-sm font-heading font-bold uppercase tracking-wider flex items-center gap-2 shadow-xl hover:scale-105 transition">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>Instant WhatsApp Estimate</span>
+            </a>
+
+            <a href="tel:+919711257834" class="btn-emerald px-6 py-3.5 rounded-xl text-xs sm:text-sm font-heading font-bold uppercase tracking-wider flex items-center gap-2 shadow-lg hover:scale-105 transition">
+              <i data-lucide="phone-call" class="w-4 h-4 text-brand-gold"></i>
+              <span>Call: +91 9711257834</span>
+            </a>
+
+            <a href="#planner" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-5 py-3.5 rounded-xl text-xs sm:text-sm font-heading font-semibold flex items-center gap-1.5 transition">
+              <i data-lucide="calculator" class="w-4 h-4 text-brand-gold"></i>
+              <span>30s Calculator</span>
+            </a>
+          </div>
+
+          <!-- 4 Pillars Stat Row -->
+          <div class="pt-6 border-t border-white/15 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl">
+            <div class="hero-glass p-3 rounded-xl">
+              <div class="font-heading font-extrabold text-xl sm:text-2xl text-amber-300">10+ Yrs</div>
+              <div class="text-[10px] text-slate-300 font-medium">Design Experience</div>
+            </div>
+            <div class="hero-glass p-3 rounded-xl">
+              <div class="font-heading font-extrabold text-xl sm:text-2xl text-amber-300">400+</div>
+              <div class="text-[10px] text-slate-300 font-medium">Delivered Spaces</div>
+            </div>
+            <div class="hero-glass p-3 rounded-xl">
+              <div class="font-heading font-extrabold text-xl sm:text-2xl text-amber-300">45 Days</div>
+              <div class="text-[10px] text-slate-300 font-medium">Handover Guarantee</div>
+            </div>
+            <div class="hero-glass p-3 rounded-xl">
+              <div class="font-heading font-extrabold text-xl sm:text-2xl text-amber-300">10 Years</div>
+              <div class="text-[10px] text-slate-300 font-medium">Plywood Warranty</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Interactive Luxury Living Room Showcase with Hotspots (5 cols) -->
+        <div class="lg:col-span-5">
+          <div class="relative rounded-3xl overflow-hidden border-2 border-brand-gold/40 shadow-2xl group bg-slate-900 aspect-[4/3] sm:aspect-[16/11]">
+            
+            <!-- Showcase Image -->
+            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=85" alt="Luxury Living Room by Home Space Interiors" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+
+            <!-- Interactive Hotspot 1 (False Ceiling) -->
+            <div class="absolute top-[22%] left-[48%] group/spot z-20">
+              <div class="hotspot-dot" title="Click to view details">+</div>
+              <div class="absolute left-1/2 -translate-x-1/2 top-10 w-52 bg-slate-950/95 text-white p-3 rounded-xl shadow-2xl border border-brand-gold/50 text-xs backdrop-blur-md hidden group-hover/spot:block pointer-events-none transition-all">
+                <div class="font-heading font-bold text-brand-gold text-[10px] uppercase">False Ceiling</div>
+                <div class="text-slate-200 text-xs mt-0.5">Gyproc board with 3000K warm LED cove lighting</div>
+              </div>
+            </div>
+
+            <!-- Interactive Hotspot 2 (Wall Paneling) -->
+            <div class="absolute top-[52%] left-[26%] group/spot z-20">
+              <div class="hotspot-dot" title="Click to view details">+</div>
+              <div class="absolute left-1/2 -translate-x-1/2 top-10 w-52 bg-slate-950/95 text-white p-3 rounded-xl shadow-2xl border border-brand-gold/50 text-xs backdrop-blur-md hidden group-hover/spot:block pointer-events-none transition-all">
+                <div class="font-heading font-bold text-brand-gold text-[10px] uppercase">Wall Paneling</div>
+                <div class="text-slate-200 text-xs mt-0.5">Fluted wooden louvers & Asian Paints Royale finish</div>
+              </div>
+            </div>
+
+            <!-- Interactive Hotspot 3 (Modular Plywood Console) -->
+            <div class="absolute bottom-[28%] right-[28%] group/spot z-20">
+              <div class="hotspot-dot" title="Click to view details">+</div>
+              <div class="absolute right-0 bottom-10 w-52 bg-slate-950/95 text-white p-3 rounded-xl shadow-2xl border border-brand-gold/50 text-xs backdrop-blur-md hidden group-hover/spot:block pointer-events-none transition-all">
+                <div class="font-heading font-bold text-brand-gold text-[10px] uppercase">Modular Console</div>
+                <div class="text-slate-200 text-xs mt-0.5">BWP 710 marine ply in high-gloss Italian PU polish</div>
+              </div>
+            </div>
+
+            <!-- Top Overlaid Trust Pill -->
+            <div class="absolute top-4 left-4 z-10">
+              <span class="bg-slate-950/85 backdrop-blur-md text-amber-300 text-xs font-heading font-bold px-3 py-1.5 rounded-full border border-brand-gold/40 shadow-lg flex items-center gap-1.5">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-amber-300 text-amber-300"></i>
+                <span>4.9/5 Rating (180+ Homes in Noida)</span>
+              </span>
+            </div>
+
+            <!-- Bottom Overlaid Location Banner -->
+            <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent p-4 flex items-center justify-between z-10">
+              <div>
+                <div class="text-white text-xs font-heading font-bold">3BHK Luxury Living Room Handover</div>
+                <div class="text-[11px] text-brand-gold">Sector 75, Noida • Delivered by Hashim</div>
+              </div>
+              <a href="#room-tour" class="text-xs text-white hover:text-brand-gold font-semibold flex items-center gap-1">
+                Room Tour <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Video Pause / Play Toggle Pill -->
+    <button id="hero-video-toggle" class="absolute bottom-4 left-4 sm:left-8 z-20 bg-slate-950/75 hover:bg-slate-900 text-slate-300 hover:text-white px-3.5 py-1.5 rounded-full text-[11px] font-heading font-medium flex items-center gap-1.5 border border-white/15 backdrop-blur-md transition shadow-lg" aria-label="Toggle Background Video">
+      <i data-lucide="pause" class="w-3.5 h-3.5 text-brand-gold"></i>
+      <span id="hero-video-toggle-text">Pause Video</span>
+    </button>
+  </section>
+
+  <!-- 4. Live Delivered Sites Ribbon: 4 Instant Visual Proofs -->
+  <section class="bg-white py-10 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-2">
+        <div class="flex items-center gap-2.5">
+          <span class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span class="text-xs sm:text-sm font-heading font-bold uppercase tracking-wider text-slate-900">
+            Recent Turnkey Homes Delivered in Delhi NCR & Noida
+          </span>
+        </div>
+        <a href="#portfolio" class="text-xs font-heading font-bold text-brand hover:text-brand-gold flex items-center gap-1">
+          Explore All Photos &rarr;
+        </a>
+      </div>
+
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- Photo Card 1 -->
+        <div class="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200 aspect-[4/3] bg-slate-100">
+          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=600&q=80" alt="3BHK Living Room Sector 75 Noida" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3">
+            <span class="text-brand-gold text-[10px] font-heading font-bold uppercase tracking-wider">Sector 75, Noida</span>
+            <span class="text-white text-xs font-semibold leading-tight">3BHK Living & False Ceiling</span>
+          </div>
+        </div>
+
+        <!-- Photo Card 2 -->
+        <div class="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200 aspect-[4/3] bg-slate-100">
+          <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1000&q=80" alt="Acrylic Island Kitchen Indirapuram" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3">
+            <span class="text-brand-gold text-[10px] font-heading font-bold uppercase tracking-wider">Indirapuram, Gzb</span>
+            <span class="text-white text-xs font-semibold leading-tight">Modular Acrylic Kitchen</span>
+          </div>
+        </div>
+
+        <!-- Photo Card 3 -->
+        <div class="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200 aspect-[4/3] bg-slate-100">
+          <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=600&q=80" alt="Master Bedroom Wardrobe Greater Noida" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3">
+            <span class="text-brand-gold text-[10px] font-heading font-bold uppercase tracking-wider">Greater Noida West</span>
+            <span class="text-white text-xs font-semibold leading-tight">Designer Fluted Wardrobe</span>
+          </div>
+        </div>
+
+        <!-- Photo Card 4 -->
+        <div class="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200 aspect-[4/3] bg-slate-100">
+          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=600&q=80" alt="False Ceiling & Cove Lights Noida Expressway" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3">
+            <span class="text-brand-gold text-[10px] font-heading font-bold uppercase tracking-wider">Noida Expressway</span>
+            <span class="text-white text-xs font-semibold leading-tight">Gyproc Ceiling & Cove Lights</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Interactive Room Tour Showcase -->
+  <section id="room-tour" class="py-20 bg-slate-50 scroll-mt-20 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase tracking-widest font-heading font-bold text-brand-gold block mb-2">
+          Room-By-Room Studio
+        </span>
+        <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-slate-900">
+          Explore Rooms We've Designed
+        </h2>
+        <p class="text-slate-600 mt-3 text-base">
+          Click any room tab below to explore our executed spaces, genuine branded materials, and craftsmanship details.
+        </p>
+      </div>
+
+      <!-- Room Category Tabs -->
+      <div class="flex flex-wrap items-center justify-center gap-2.5 mb-10">
+        <button data-room="living" class="room-tab-btn px-5 py-3 rounded-xl font-heading text-xs font-bold uppercase tracking-wider transition bg-emerald-950 text-white border-2 border-brand-gold shadow-md flex items-center gap-2">
+          <i data-lucide="armchair" class="w-4 h-4 text-brand-gold"></i> Living Room
+        </button>
+        <button data-room="kitchen" class="room-tab-btn px-5 py-3 rounded-xl font-heading text-xs font-bold uppercase tracking-wider transition bg-white text-slate-700 border-2 border-slate-200 hover:border-brand-gold flex items-center gap-2">
+          <i data-lucide="utensils" class="w-4 h-4 text-brand-gold"></i> Modular Kitchen
+        </button>
+        <button data-room="bedroom" class="room-tab-btn px-5 py-3 rounded-xl font-heading text-xs font-bold uppercase tracking-wider transition bg-white text-slate-700 border-2 border-slate-200 hover:border-brand-gold flex items-center gap-2">
+          <i data-lucide="bed" class="w-4 h-4 text-brand-gold"></i> Master Bedroom
+        </button>
+        <button data-room="ceiling" class="room-tab-btn px-5 py-3 rounded-xl font-heading text-xs font-bold uppercase tracking-wider transition bg-white text-slate-700 border-2 border-slate-200 hover:border-brand-gold flex items-center gap-2">
+          <i data-lucide="sun" class="w-4 h-4 text-brand-gold"></i> False Ceiling
+        </button>
+        <button data-room="upvc_glass" class="room-tab-btn px-5 py-3 rounded-xl font-heading text-xs font-bold uppercase tracking-wider transition bg-white text-slate-700 border-2 border-slate-200 hover:border-brand-gold flex items-center gap-2">
+          <i data-lucide="columns" class="w-4 h-4 text-brand-gold"></i> UPVC & Balcony
+        </button>
+        <button data-room="bathroom" class="room-tab-btn px-5 py-3 rounded-xl font-heading text-xs font-bold uppercase tracking-wider transition bg-white text-slate-700 border-2 border-slate-200 hover:border-brand-gold flex items-center gap-2">
+          <i data-lucide="droplet" class="w-4 h-4 text-brand-gold"></i> Glass Shower
+        </button>
+        <button data-room="commercial" class="room-tab-btn px-5 py-3 rounded-xl font-heading text-xs font-bold uppercase tracking-wider transition bg-white text-slate-700 border-2 border-slate-200 hover:border-brand-gold flex items-center gap-2">
+          <i data-lucide="briefcase" class="w-4 h-4 text-brand-gold"></i> Office Cabins
+        </button>
+      </div>
+
+      <!-- Dynamic Room Showcase Display Box -->
+      <div class="bg-white rounded-3xl p-6 sm:p-10 border-2 border-slate-200 shadow-xl overflow-hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Left: Big Photo Showcase -->
+          <div class="lg:col-span-7">
+            <div class="relative rounded-2xl overflow-hidden aspect-[16/10] bg-slate-100 shadow-md group lightbox-trigger cursor-zoom-in" data-title="Room Tour Showcase">
+              <img id="room-display-img" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85" alt="Luxury Living Room" class="w-full h-full object-cover transition-opacity duration-300 group-hover:scale-105 duration-500">
+              
+              <!-- Location Pill Badge -->
+              <div class="absolute top-4 left-4">
+                <span id="room-display-loc" class="bg-slate-950/85 backdrop-blur-md text-brand-gold text-xs font-heading font-bold px-3 py-1.5 rounded-full border border-brand-gold/30">
+                  📍 Sector 75, Noida
+                </span>
+              </div>
+
+              <!-- Click to Enlarge Overlay -->
+              <div class="absolute bottom-4 right-4 bg-slate-900/80 backdrop-blur-md text-white text-[11px] font-semibold px-3 py-1 rounded-lg flex items-center gap-1.5">
+                <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Click to Zoom Photo
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Details, Specifications, & Direct CTA -->
+          <div class="lg:col-span-5 space-y-5">
+            <div>
+              <span class="text-xs uppercase tracking-wider font-heading font-bold text-brand-gold">
+                Room Highlights
+              </span>
+              <h3 id="room-display-title" class="font-heading text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
+                Luxury Living Room & Cove Ceiling
+              </h3>
+              <p id="room-display-desc" class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Ambient Gyproc false ceiling with warm 3000K LED coves, fluted wall louvers, custom Italian PU media console, and acoustic sound insulation.
+              </p>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200">
+              <span class="text-xs font-heading font-bold uppercase tracking-wider text-brand block mb-2">
+                Certified Materials Included:
+              </span>
+              <ul id="room-display-specs" class="space-y-2">
+                <li class="flex items-start text-xs sm:text-sm text-slate-700">
+                  <span class="text-emerald-700 font-bold mr-2 mt-0.5">✓</span>
+                  <span>Gyproc Plasterboard Ceiling with 10-Yr Warranty</span>
+                </li>
+                <li class="flex items-start text-xs sm:text-sm text-slate-700">
+                  <span class="text-emerald-700 font-bold mr-2 mt-0.5">✓</span>
+                  <span>Warm White 3000K LED Strip & Philips Spotlights</span>
+                </li>
+                <li class="flex items-start text-xs sm:text-sm text-slate-700">
+                  <span class="text-emerald-700 font-bold mr-2 mt-0.5">✓</span>
+                  <span>Charcoal & Wooden Fluted Accent Wall Paneling</span>
+                </li>
+                <li class="flex items-start text-xs sm:text-sm text-slate-700">
+                  <span class="text-emerald-700 font-bold mr-2 mt-0.5">✓</span>
+                  <span>Floating TV Console in High Gloss PU Finish</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div>
+                <span class="text-[11px] text-slate-500 block uppercase font-medium">Execution Scope</span>
+                <span id="room-display-price" class="font-heading font-extrabold text-xl text-emerald-800">
+                  Turnkey Living & Lighting Architecture
+                </span>
+              </div>
+
+              <a id="room-display-wa" href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20am%20interested%20in%20the%20Luxury%20Living%20Room%20look." target="_blank" class="btn-whatsapp px-5 py-3 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center justify-center gap-2 shadow-md">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                <span>Get This Look</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. Interactive Before & After Transformation Slider -->
+  <section id="before-after" class="py-20 bg-white scroll-mt-20 border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase tracking-widest font-heading font-bold text-brand-gold block mb-2">
+          Transformation Proof
+        </span>
+        <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-slate-900">
+          From Bare Concrete To Luxury Living
+        </h2>
+        <p class="text-slate-600 mt-3 text-base">
+          Drag the center handle or click the buttons below to see how Home Space Interiors transforms raw flats into dream homes.
+        </p>
+      </div>
+
+      <!-- Quick Action Toggle Buttons -->
+      <div class="flex items-center justify-center gap-3 mb-6">
+        <button id="btn-show-before" class="px-4 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-heading text-xs font-bold transition">
+          Show Bare Shell (Before)
+        </button>
+        <button id="btn-show-split" class="px-4 py-2 rounded-lg bg-brand-dark text-white font-heading text-xs font-bold border border-brand-gold transition">
+          50 / 50 Comparison
+        </button>
+        <button id="btn-show-after" class="px-4 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-heading text-xs font-bold transition">
+          Show Luxury Finish (After)
+        </button>
+      </div>
+
+      <!-- The Draggable Before/After Container -->
+      <div id="ba-container" class="before-after-container aspect-[16/9] sm:aspect-[21/9] max-h-[550px] relative w-full border-4 border-white">
+        
+        <!-- After Image (Background: Luxury Finished Room) -->
+        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85" alt="After: Completed Luxury Living Room" class="w-full h-full object-cover">
+        <span class="absolute bottom-5 right-5 bg-emerald-950/85 text-emerald-300 border border-emerald-500/40 px-3.5 py-1.5 rounded-full text-xs font-heading font-bold tracking-wider backdrop-blur-md">
+          AFTER: Turnkey Handover
+        </span>
+
+        <!-- Before Image (Clipped Overlay: Bare Concrete Construction) -->
+        <div id="ba-before-wrap" class="before-image-wrap" style="width: 50%;">
+          <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=85" alt="Before: Bare Concrete Unfinished Flat" class="absolute top-0 left-0 w-full h-full object-cover max-w-none" style="width: 100%; height: 100%;">
+          <span class="absolute bottom-5 left-5 bg-slate-950/85 text-amber-200 border border-amber-500/40 px-3.5 py-1.5 rounded-full text-xs font-heading font-bold tracking-wider backdrop-blur-md">
+            BEFORE: Raw Concrete Shell
+          </span>
+        </div>
+
+        <!-- Draggable Handle Divider -->
+        <div id="ba-handle" class="before-after-handle" style="left: 50%;">
+          <div class="before-after-handle-btn">
+            <i data-lucide="chevrons-left-right" class="w-5 h-5"></i>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Range Slider Fallback for Accessibility -->
+      <div class="max-w-md mx-auto mt-6 text-center">
+        <input id="ba-range" type="range" min="0" max="100" value="50" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-brand-gold" aria-label="Before after slider">
+        <span class="text-xs text-slate-500 mt-2 block font-medium">← Drag left or right to compare transformation →</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. Complete Range of Services (All 10 Specialized Services) -->
+  <section id="services" class="py-24 bg-slate-50 scroll-mt-20 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-brand text-xs font-heading font-bold uppercase tracking-wider mb-3">
+          <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+          All 10 Services from Visiting Card
+        </div>
+        <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
+          Complete Interior Solutions
+        </h2>
+        <p class="text-slate-600 mt-3 text-base sm:text-lg font-light leading-relaxed">
+          From custom modular woodwork to false ceilings, metal fabrication, UPVC soundproofing & turnkey civil renovations — all executed in-house by Hashim across Delhi NCR & Noida.
+        </p>
+
+        <!-- Service Category Filter Tabs -->
+        <div class="flex flex-wrap items-center justify-center gap-2 mt-8 font-heading text-xs font-bold uppercase tracking-wider">
+          <button data-service-filter="all" class="service-tab-btn px-4 py-2.5 rounded-xl bg-emerald-950 text-white border border-brand-gold shadow-sm transition">All 10 Services</button>
+          <button data-service-filter="woodwork" class="service-tab-btn px-4 py-2.5 rounded-xl bg-white text-slate-700 border border-slate-200 hover:border-brand-gold transition">Modular Woodwork</button>
+          <button data-service-filter="ceiling_paint" class="service-tab-btn px-4 py-2.5 rounded-xl bg-white text-slate-700 border border-slate-200 hover:border-brand-gold transition">Ceiling & Paint</button>
+          <button data-service-filter="windows_glass" class="service-tab-btn px-4 py-2.5 rounded-xl bg-white text-slate-700 border border-slate-200 hover:border-brand-gold transition">UPVC, Glass & Aluminium</button>
+          <button data-service-filter="civil_metal" class="service-tab-btn px-4 py-2.5 rounded-xl bg-white text-slate-700 border border-slate-200 hover:border-brand-gold transition">Civil & Fabrication</button>
+        </div>
+      </div>
+
+      <!-- 10 Services Grid (Clean 3-Column Luxury Architecture Suite) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- 1. Modular Kitchen -->
+        <div class="service-item bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden flex flex-col justify-between hover:border-brand-gold hover:shadow-xl transition duration-300 group" data-category="woodwork">
+          <div class="h-60 overflow-hidden relative bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80" alt="Modern Modular Kitchen" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3.5 left-3.5 bg-brand-dark/90 text-brand-gold text-[11px] font-heading font-extrabold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              01
+            </span>
+            <span class="absolute top-3.5 right-3.5 bg-emerald-950/90 text-emerald-300 text-xs font-heading font-bold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              Century BWP 710 Ply
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-extrabold text-xl text-slate-900">Modular Kitchen</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                L-shaped, U-shaped & Island layouts. Built in boiling waterproof calibrated BWP 710 marine plywood with scratch-resistant acrylic/PU finish and quartz stone countertops.
+              </p>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-700">
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Hafele / Hettich soft-close tandem drawers</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> 18mm Kalinga Stone quartz countertop</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> 10-Year warranty on marine grade plywood</li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block uppercase font-bold">Warranty & Hardware</span>
+                <span class="font-heading font-extrabold text-emerald-800 text-sm">10-Yr Warranty • Hafele Soft-Close</span>
+              </div>
+              <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20am%20interested%20in%20a%20Modular%20Kitchen%20quote." target="_blank" class="btn-whatsapp px-4 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-md">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                <span>Enquire</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Designer Wardrobe -->
+        <div class="service-item bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden flex flex-col justify-between hover:border-brand-gold hover:shadow-xl transition duration-300 group" data-category="woodwork">
+          <div class="h-60 overflow-hidden relative bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80" alt="Designer Wardrobe" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3.5 left-3.5 bg-brand-dark/90 text-brand-gold text-[11px] font-heading font-extrabold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              02
+            </span>
+            <span class="absolute top-3.5 right-3.5 bg-brand-dark/90 text-brand-gold text-xs font-heading font-bold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              Profile Glass & LEDs
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-extrabold text-xl text-slate-900">Designer Wardrobes</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Floor-to-ceiling sliding & openable wardrobes. Anodized profile tinted glass shutters, motion sensor internal warm LED strips, and custom jewelry & organizer drawers.
+              </p>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-700">
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Smooth heavy-duty soft-close sliding channels</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Motion-sensor automatic LED lighting</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Velvet organizer drawers for accessories</li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block uppercase font-bold">Structure & Finish</span>
+                <span class="font-heading font-extrabold text-emerald-800 text-sm">Floor-to-Ceiling • Tinted Glass</span>
+              </div>
+              <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20am%20interested%20in%20a%20Designer%20Wardrobe%20quote." target="_blank" class="btn-whatsapp px-4 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-md">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                <span>Enquire</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. False Ceiling -->
+        <div class="service-item bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden flex flex-col justify-between hover:border-brand-gold hover:shadow-xl transition duration-300 group" data-category="ceiling_paint">
+          <div class="h-60 overflow-hidden relative bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="False Ceiling" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3.5 left-3.5 bg-brand-dark/90 text-brand-gold text-[11px] font-heading font-extrabold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              03
+            </span>
+            <span class="absolute top-3.5 right-3.5 bg-brand-dark/90 text-brand-gold text-xs font-heading font-bold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              Gyproc Certified
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-extrabold text-xl text-slate-900">False Ceiling & Cove Lights</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Zero-crack Saint-Gobain Gyproc plasterboard ceilings, 3000K warm ambient LED cove channels, magnetic track lights, wooden rafters, and chandelier suspension points.
+              </p>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-700">
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Saint-Gobain Gyproc GI channels & plasterboards</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Dimmable 3000K warm LED cove strip lighting</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Fibre-mesh jointing tape for zero hairline cracks</li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block uppercase font-bold">Ceiling Architecture</span>
+                <span class="font-heading font-extrabold text-emerald-800 text-sm">Saint-Gobain Gyproc • Philips COB</span>
+              </div>
+              <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20need%20a%20False%20Ceiling%20quote." target="_blank" class="btn-whatsapp px-4 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-md">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                <span>Enquire</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Luxury Painting & Polish -->
+        <div class="service-item bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden flex flex-col justify-between hover:border-brand-gold hover:shadow-xl transition duration-300 group" data-category="ceiling_paint">
+          <div class="h-60 overflow-hidden relative bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80" alt="Painting" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3.5 left-3.5 bg-brand-dark/90 text-brand-gold text-[11px] font-heading font-extrabold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              04
+            </span>
+            <span class="absolute top-3.5 right-3.5 bg-brand-dark/90 text-brand-gold text-xs font-heading font-bold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              Asian Paints Royale
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-extrabold text-xl text-slate-900">Luxury Painting & Polish</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Washable Asian Paints Royale luxury emulsion, Italian PU & Melamine lacquer polish on natural wooden veneer doors, and velvet/stucco designer accent textures.
+              </p>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-700">
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> 100% Washable Asian Paints Royale finish</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Italian PU polish with mirror gloss finish</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Dr. Fixit anti-dampness waterproofing coat</li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block uppercase font-bold">Paints & Texture</span>
+                <span class="font-heading font-extrabold text-emerald-800 text-sm">Asian Paints Royale • Italian Stucco</span>
+              </div>
+              <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20need%20a%20Painting%20quote." target="_blank" class="btn-whatsapp px-4 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-md">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                <span>Enquire</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Structural Fabrication -->
+        <div class="service-item bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden flex flex-col justify-between hover:border-brand-gold hover:shadow-xl transition duration-300 group" data-category="civil_metal">
+          <div class="h-60 overflow-hidden relative bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1533090161767-e6ffed986b88?auto=format&fit=crop&w=800&q=80" alt="Structural Fabrication" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3.5 left-3.5 bg-brand-dark/90 text-brand-gold text-[11px] font-heading font-extrabold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              05
+            </span>
+            <span class="absolute top-3.5 right-3.5 bg-brand-dark/90 text-brand-gold text-xs font-heading font-bold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              SS 304 & MS Steel
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-extrabold text-xl text-slate-900">Structural Fabrication</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Precision MS & SS 304 architectural fabrication, terrace pergolas, glass railings, spiral staircases, and heavy-duty weather-proof balcony sheds.
+              </p>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-700">
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> High-strength SS 304 grade rust-proof steel</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Heavy-gauge terrace pergola structures</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Industrial anti-corrosion primer & enamel paint</li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block uppercase font-bold">Fabrication Grade</span>
+                <span class="font-heading font-extrabold text-emerald-800 text-sm">CNC Laser Cut MS • SS 304</span>
+              </div>
+              <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20need%20a%20Fabrication%20quote." target="_blank" class="btn-whatsapp px-4 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-md">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                <span>Enquire</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Gate & Grill -->
+        <div class="service-item bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden flex flex-col justify-between hover:border-brand-gold hover:shadow-xl transition duration-300 group" data-category="civil_metal">
+          <div class="h-60 overflow-hidden relative bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Gate and Grill" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3.5 left-3.5 bg-brand-dark/90 text-brand-gold text-[11px] font-heading font-extrabold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              06
+            </span>
+            <span class="absolute top-3.5 right-3.5 bg-brand-dark/90 text-brand-gold text-xs font-heading font-bold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              CNC Laser Cut
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-extrabold text-xl text-slate-900">Modern Gate & Grill</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Computerized CNC laser-cut main entrance gates, window safety grills, decorative boundary railings, and modern motorized sliding driveway gates.
+              </p>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-700">
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> High-precision CNC laser cut geometric patterns</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Electrostatic powder-coat finish against rust</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Heavy-duty hinges & multi-lock security</li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block uppercase font-bold">Security & Finish</span>
+                <span class="font-heading font-extrabold text-emerald-800 text-sm">Heavy-Gauge MS • Rust-Proof Primer</span>
+              </div>
+              <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20need%20a%20Gate%20Grill%20quote." target="_blank" class="btn-whatsapp px-4 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-md">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                <span>Enquire</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Aluminium Work -->
+        <div class="service-item bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden flex flex-col justify-between hover:border-brand-gold hover:shadow-xl transition duration-300 group" data-category="windows_glass">
+          <div class="h-60 overflow-hidden relative bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1509644851169-2acc08aa25b5?auto=format&fit=crop&w=800&q=80" alt="Aluminium Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3.5 left-3.5 bg-brand-dark/90 text-brand-gold text-[11px] font-heading font-extrabold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              07
+            </span>
+            <span class="absolute top-3.5 right-3.5 bg-brand-dark/90 text-brand-gold text-xs font-heading font-bold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              Jindal Sections
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-extrabold text-xl text-slate-900">Aluminium Work</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Jindal heavy-gauge powder-coated aluminium sliding partitions, office soundproof cabins, bathroom louver doors, and slimline architectural sliding systems.
+              </p>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-700">
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Authentic Jindal heavy-gauge aluminium</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Smooth silent-gliding roller mechanisms</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Commercial office cabins & home partitions</li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block uppercase font-bold">Profile System</span>
+                <span class="font-heading font-extrabold text-emerald-800 text-sm">Jindal Aluminium • Powder Coated</span>
+              </div>
+              <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20need%20an%20Aluminium%20quote." target="_blank" class="btn-whatsapp px-4 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-md">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                <span>Enquire</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. UPVC Doors & Windows -->
+        <div class="service-item bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden flex flex-col justify-between hover:border-brand-gold hover:shadow-xl transition duration-300 group" data-category="windows_glass">
+          <div class="h-60 overflow-hidden relative bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=800&q=80" alt="UPVC Windows" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3.5 left-3.5 bg-brand-dark/90 text-brand-gold text-[11px] font-heading font-extrabold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              08
+            </span>
+            <span class="absolute top-3.5 right-3.5 bg-emerald-950/90 text-emerald-300 text-xs font-heading font-bold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              Soundproof Glass
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-extrabold text-xl text-slate-900">UPVC Doors & Windows</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Soundproof, dust-free & monsoon-proof UPVC sliding and casement French doors with multi-point steel locking, SS mesh screens, and double-glazed acoustic glass.
+              </p>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-700">
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> 85% Traffic noise reduction with double glazing</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Dust & monsoon rain-proof EPDM rubber gaskets</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Multi-point steel locking for home security</li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block uppercase font-bold">Acoustic Rating</span>
+                <span class="font-heading font-extrabold text-emerald-800 text-sm">Double Glazed • 85% Noise Shield</span>
+              </div>
+              <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20need%20a%20UPVC%20quote." target="_blank" class="btn-whatsapp px-4 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-md">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                <span>Enquire</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Architectural Glass Work -->
+        <div class="service-item bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden flex flex-col justify-between hover:border-brand-gold hover:shadow-xl transition duration-300 group" data-category="windows_glass">
+          <div class="h-60 overflow-hidden relative bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="Architectural Glass Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <span class="absolute top-3.5 left-3.5 bg-brand-dark/90 text-brand-gold text-[11px] font-heading font-extrabold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              09
+            </span>
+            <span class="absolute top-3.5 right-3.5 bg-brand-dark/90 text-brand-gold text-xs font-heading font-bold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+              Saint-Gobain Glass
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-extrabold text-xl text-slate-900">Architectural Glass Work</h3>
+              <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+                Frameless 10mm/12mm toughened glass bathroom shower partitions, designer backlit LED defogger vanity mirrors, fluted glass partitions, and glass railings.
+              </p>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-700">
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> 10mm / 12mm Saint-Gobain Toughened Glass</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> SS 304 Grade matte-black & chrome hinges</li>
+                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-600 shrink-0"></i> Backlit touch-sensor LED vanity mirrors</li>
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div>
+                <span class="text-[10px] text-slate-400 block uppercase font-bold">Safety Standard</span>
+                <span class="font-heading font-extrabold text-emerald-800 text-sm">10mm/12mm Toughened • DORMA / Ozone</span>
+              </div>
+              <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20need%20a%20Glass%20Work%20quote." target="_blank" class="btn-whatsapp px-4 py-2.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-1.5 shadow-md">
+                <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+                <span>Enquire</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Turnkey Civil Work, Tiling & Renovation (Featured Banner) -->
+        <div class="service-item bg-white rounded-3xl border border-slate-200 shadow-md overflow-hidden flex flex-col justify-between hover:border-brand-gold hover:shadow-xl transition duration-300 md:col-span-2 lg:col-span-3 group" data-category="civil_metal">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+            <div class="md:col-span-5 h-64 overflow-hidden relative bg-slate-100">
+              <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" alt="Civil Renovation" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+              <span class="absolute top-3.5 left-3.5 bg-brand-dark/90 text-brand-gold text-[11px] font-heading font-extrabold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+                10
+              </span>
+              <span class="absolute top-3.5 right-3.5 bg-amber-950/90 text-amber-300 text-xs font-heading font-bold px-3 py-1 rounded-full backdrop-blur-md shadow-md">
+                Turnkey Civil Contract
+              </span>
+            </div>
+            <div class="md:col-span-7 p-6 sm:pr-8 flex flex-col justify-between">
+              <div>
+                <h3 class="font-heading font-extrabold text-2xl text-slate-900">Civil Work, Flooring & Full Renovation</h3>
+                <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                  Complete bathroom overhauls, Italian marble & vitrified tiling, brick masonry, wall demolition/expansion, CPVC plumbing re-routing, and concealed electrical wiring with Havells/Polycab cables.
+                </p>
+                <div class="mt-4 flex flex-wrap gap-2 text-xs font-semibold text-slate-700">
+                  <span class="bg-slate-100 px-3 py-1.5 rounded-lg flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600"></i> Italian Marble & Tiling</span>
+                  <span class="bg-slate-100 px-3 py-1.5 rounded-lg flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600"></i> Complete Bathroom Makeovers</span>
+                  <span class="bg-slate-100 px-3 py-1.5 rounded-lg flex items-center gap-1.5"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-600"></i> Concealed Plumbing & Wiring</span>
+                </div>
+              </div>
+              <div class="mt-6 pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-4">
+                <div>
+                  <span class="text-[10px] text-slate-400 block uppercase font-bold">Execution Quality</span>
+                  <span class="font-heading font-extrabold text-emerald-800 text-sm">End-to-End Turnkey • On-Site Supervisor</span>
+                </div>
+                <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20need%20a%20Civil%20Renovation%20quote." target="_blank" class="btn-emerald px-6 py-3 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-2 shadow-md">
+                  <i data-lucide="calendar" class="w-4 h-4 text-brand-gold"></i>
+                  <span>Schedule Site Inspection</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. Founder Spotlight & Visiting Card -->
+  <section id="about" class="py-24 bg-white scroll-mt-20 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Visiting Card & Real Photos Grid -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="bg-slate-100 p-4 rounded-3xl border-2 border-brand-gold/50 shadow-2xl space-y-3">
+            <img src="visiting-card.jpg" alt="Home Space Interiors - Hashim Visiting Card" class="w-full rounded-2xl shadow-md border border-slate-200">
+            
+            <div class="grid grid-cols-2 gap-3 pt-1">
+              <div class="relative rounded-xl overflow-hidden h-28 border border-slate-300">
+                <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=80" alt="On-Site Measurement" class="w-full h-full object-cover">
+                <span class="absolute bottom-1.5 left-2 bg-slate-950/85 text-[10px] text-white px-2 py-0.5 rounded font-semibold">On-Site Measurement</span>
+              </div>
+              <div class="relative rounded-xl overflow-hidden h-28 border border-slate-300">
+                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=400&q=80" alt="Turnkey Handover" class="w-full h-full object-cover">
+                <span class="absolute bottom-1.5 left-2 bg-slate-950/85 text-[10px] text-white px-2 py-0.5 rounded font-semibold">Turnkey Finish</span>
+              </div>
+            </div>
+
+            <div class="text-center text-xs text-slate-500 font-semibold pt-1">
+              Official Business Card • Verified Interior Designer & Consultant
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Narrative & Direct Founder Commitment -->
+        <div class="lg:col-span-7 space-y-6">
+          <span class="text-xs uppercase tracking-widest font-heading font-bold text-brand-gold block">
+            Meet Your Designer
+          </span>
+
+          <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-slate-900 leading-tight">
+            Hi, I'm Hashim <br>
+            <span class="text-brand text-2xl sm:text-4xl font-semibold">Interior Designer & Consultant</span>
+          </h2>
+
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+            Welcome to <strong>Home Space Interiors</strong>! Building or renovating your home in Delhi NCR or Noida should be an exciting journey, not a stressful headache. Unlike large brokerage apps that hand your project to third-party sub-contractors, <strong>I personally supervise your site</strong> from initial 3D design measurements to the final handover.
+          </p>
+
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+            We operate our own modular manufacturing and fabrication units, which cuts out middleman margins and guarantees that you receive genuine <strong>BWP 710 calibrated marine plywood, Hafele hardware, and Saint-Gobain glass</strong> at genuine factory rates.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div class="flex items-start gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200">
+              <i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-700 shrink-0 mt-0.5"></i>
+              <div>
+                <div class="font-heading font-bold text-sm text-slate-900">Personal Site Supervision</div>
+                <div class="text-xs text-slate-500 mt-0.5">Daily updates and zero contractor excuses.</div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-200">
+              <i data-lucide="shield-check" class="w-5 h-5 text-emerald-700 shrink-0 mt-0.5"></i>
+              <div>
+                <div class="font-heading font-bold text-sm text-slate-900">10-Year Written Warranty</div>
+                <div class="text-xs text-slate-500 mt-0.5">Original brand warranty certificates provided.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Direct Call & WhatsApp Buttons -->
+          <div class="pt-4 flex flex-wrap gap-4">
+            <a href="tel:+919711257834" class="btn-emerald px-7 py-3.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-2">
+              <i data-lucide="phone-call" class="w-4 h-4 text-brand-gold"></i>
+              <span>Call Hashim: +91 9711257834</span>
+            </a>
+            <a href="https://wa.me/917292043299" target="_blank" class="btn-whatsapp px-7 py-3.5 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-2">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>WhatsApp: +91 7292043299</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Interactive Interior Scope & Material Planner (Delhi NCR & Noida) -->
+  <section id="planner" class="py-24 bg-slate-50 scroll-mt-20 border-b border-slate-200">
+    <span id="calculator" class="block -mt-24 pt-24 invisible"></span>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs uppercase tracking-widest font-heading font-bold text-brand-gold block mb-2">
+          Interactive Scope Planner
+        </span>
+        <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-slate-900">
+          Plan Your Dream Interior in 30 Seconds
+        </h2>
+        <p class="text-slate-600 mt-3 text-base">
+          Select your configuration & scope to preview branded materials, inclusions, and schedule a free site consultation.
+        </p>
+      </div>
+
+      <div class="bg-white rounded-3xl p-6 sm:p-10 border-2 border-slate-200 shadow-2xl max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Selectors -->
+          <div class="lg:col-span-7 space-y-5">
+            <div>
+              <label class="block text-xs font-heading font-bold uppercase tracking-wider text-slate-700 mb-2">
+                1. Select Property Configuration
+              </label>
+              <select id="calc-config" class="w-full bg-slate-50 border border-slate-300 rounded-xl p-3.5 text-sm font-semibold text-slate-800 focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition">
+                <option value="1bhk">1 BHK Apartment (~600 sq.ft)</option>
+                <option value="2bhk" selected>2 BHK Apartment (~950 sq.ft)</option>
+                <option value="3bhk">3 BHK Apartment (~1,450 sq.ft)</option>
+                <option value="4bhk">4 BHK / Penthouse (~2,100 sq.ft)</option>
+                <option value="villa">Independent Villa / Kothi (~3,200 sq.ft)</option>
+                <option value="office">Commercial Office (~1,200 sq.ft)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-heading font-bold uppercase tracking-wider text-slate-700 mb-2">
+                2. Select Scope of Work
+              </label>
+              <select id="calc-scope" class="w-full bg-slate-50 border border-slate-300 rounded-xl p-3.5 text-sm font-semibold text-slate-800 focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition">
+                <option value="full" selected>Complete Turnkey Interior (Kitchen, Wardrobes, Ceilings & Paint)</option>
+                <option value="kitchen">Modular Kitchen Only (Marine Ply & Hafele Drawers)</option>
+                <option value="wardrobe">Designer Wardrobes Only (Profile Glass / Sliding)</option>
+                <option value="ceiling_paint">False Ceiling & Asian Paints Royale Painting</option>
+                <option value="civil_reno">Complete Civil Renovation & Remodeling</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-heading font-bold uppercase tracking-wider text-slate-700 mb-2">
+                3. Select Material & Finish Grade
+              </label>
+              <select id="calc-tier" class="w-full bg-slate-50 border border-slate-300 rounded-xl p-3.5 text-sm font-semibold text-slate-800 focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition">
+                <option value="standard">Standard Quality (BWR Plywood + Soft-Close)</option>
+                <option value="premium" selected>Premium Quality (Calibrated BWP 710 + PU Polish)</option>
+                <option value="luxury">Ultra Luxury (Tinted Profile Glass + Quartz Stone)</option>
+              </select>
+            </div>
+
+            <!-- Inclusions Checklist -->
+            <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200">
+              <span class="text-xs font-heading font-bold uppercase tracking-wider text-brand block mb-2.5">
+                Key Inclusions with this Selection:
+              </span>
+              <ul id="calc-items-list" class="space-y-1.5">
+                <!-- Injected via JavaScript -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- Consultation & Design Scope Card -->
+          <div class="lg:col-span-5 bg-gradient-to-br from-brand-dark via-brand to-brand-dark text-white rounded-3xl p-6 sm:p-8 text-center space-y-5 border-2 border-brand-gold/40 shadow-xl">
+            <span class="text-xs uppercase tracking-widest font-heading font-bold text-amber-300 block">
+              Complimentary Consultation
+            </span>
+
+            <div class="py-2">
+              <div id="calc-cost-display" class="font-heading font-extrabold text-2xl sm:text-3xl text-white tracking-tight leading-snug">
+                Free 3D Layout & Site Visit
+              </div>
+              <p class="text-[11px] text-slate-300 mt-2 font-light">
+                Includes laser on-site measurements, 3D layout options & branded material selection directly with Hashim.
+              </p>
+            </div>
+
+            <div id="calc-time-display" class="bg-brand-dark/90 rounded-xl p-3 text-xs font-bold text-emerald-300 border border-brand-light/50">
+              ⏱️ Estimated Execution: 30-40 Days
+            </div>
+
+            <a id="calc-wa-btn" href="#" target="_blank" class="w-full btn-whatsapp py-4 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center justify-center gap-2 shadow-2xl hover:scale-105 transition">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>Schedule Free Site Visit on WhatsApp</span>
+            </a>
+
+            <div class="text-[11px] text-slate-300 flex items-center justify-center gap-3 font-light">
+              <span>✓ Free 3D Design</span>
+              <span>•</span>
+              <span>✓ Material Samples On-Site</span>
+              <span>•</span>
+              <span>✓ 10-Year Warranty</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 10. Live Site Walkthrough Video Section -->
+  <section id="video-tour" class="py-20 bg-brand-dark text-white scroll-mt-20 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div>
+          <span class="text-xs uppercase tracking-widest font-heading font-bold text-brand-gold block mb-2">
+            Live Video Proof
+          </span>
+          <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-white">
+            Watch Real Site Walkthroughs
+          </h2>
+          <p class="text-slate-300 mt-2 text-sm sm:text-base max-w-2xl">
+            See the actual finishing, soft-close hardware, and cove lighting delivered across Noida & Delhi NCR.
+          </p>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir,%20please%20send%20more%20site%20walkthrough%20videos%20on%20WhatsApp" target="_blank" class="btn-whatsapp px-5 py-3 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center gap-2">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+            <span>Get Videos on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- 3 Video Showcase Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Video 1: Living Room -->
+        <div class="group bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-brand-gold transition duration-300 shadow-xl">
+          <div class="aspect-video relative overflow-hidden bg-slate-900 cursor-pointer open-video-tour" data-video-src="living-walkthrough.mp4">
+            <video muted loop playsinline class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+              <source src="living-walkthrough.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent flex items-center justify-center">
+              <div class="w-14 h-14 rounded-full bg-brand-gold text-slate-950 flex items-center justify-center shadow-2xl group-hover:scale-110 transition">
+                <i data-lucide="play" class="w-6 h-6 fill-slate-950 ml-1"></i>
+              </div>
+            </div>
+            <span class="absolute top-3 left-3 bg-brand-dark/90 text-brand-gold text-[10px] font-heading font-bold px-2.5 py-1 rounded-md backdrop-blur-md">
+              Sector 75, Noida
+            </span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-heading font-bold text-lg text-white">Full Living Room & False Ceiling</h3>
+            <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Gyproc cove ceiling, ambient lighting channels, and fluted panel media console.</p>
+          </div>
+        </div>
+
+        <!-- Video 2: Modular Kitchen -->
+        <div class="group bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-brand-gold transition duration-300 shadow-xl">
+          <div class="aspect-video relative overflow-hidden bg-slate-900 cursor-pointer open-video-tour" data-video-src="kitchen-walkthrough.mp4">
+            <video muted loop playsinline class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+              <source src="kitchen-walkthrough.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent flex items-center justify-center">
+              <div class="w-14 h-14 rounded-full bg-brand-gold text-slate-950 flex items-center justify-center shadow-2xl group-hover:scale-110 transition">
+                <i data-lucide="play" class="w-6 h-6 fill-slate-950 ml-1"></i>
+              </div>
+            </div>
+            <span class="absolute top-3 left-3 bg-brand-dark/90 text-brand-gold text-[10px] font-heading font-bold px-2.5 py-1 rounded-md backdrop-blur-md">
+              Indirapuram, Gzb
+            </span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-heading font-bold text-lg text-white">Modular Acrylic Island Kitchen</h3>
+            <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Hafele soft-close tandem drawers, quartz countertop, and marine ply BWP 710.</p>
+          </div>
+        </div>
+
+        <!-- Video 3: Bedroom & Wardrobe -->
+        <div class="group bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-brand-gold transition duration-300 shadow-xl">
+          <div class="aspect-video relative overflow-hidden bg-slate-900 cursor-pointer open-video-tour" data-video-src="bedroom-walkthrough.mp4">
+            <video muted loop playsinline class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-80 group-hover:opacity-100">
+              <source src="bedroom-walkthrough.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent flex items-center justify-center">
+              <div class="w-14 h-14 rounded-full bg-brand-gold text-slate-950 flex items-center justify-center shadow-2xl group-hover:scale-110 transition">
+                <i data-lucide="play" class="w-6 h-6 fill-slate-950 ml-1"></i>
+              </div>
+            </div>
+            <span class="absolute top-3 left-3 bg-brand-dark/90 text-brand-gold text-[10px] font-heading font-bold px-2.5 py-1 rounded-md backdrop-blur-md">
+              Greater Noida West
+            </span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-heading font-bold text-lg text-white">Master Bedroom & Profile Wardrobe</h3>
+            <p class="text-xs text-slate-400 mt-1.5 leading-relaxed">Tinted profile glass sliding wardrobe with sensor warm internal lighting.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 11. Genuine Brand Partners Strip -->
+  <section class="py-12 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-6">
+        <span class="text-xs font-heading font-bold uppercase tracking-wider text-slate-500">
+          We Only Use 100% Genuine Certified Brands With Official Warranties
+        </span>
+      </div>
+      <div class="flex flex-wrap items-center justify-around gap-6 text-sm sm:text-base font-heading font-extrabold text-slate-800">
+        <span class="flex items-center gap-2 px-4 py-2 bg-slate-50 rounded-xl border border-slate-200">
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i> Century Ply (BWP 710)
+        </span>
+        <span class="flex items-center gap-2 px-4 py-2 bg-slate-50 rounded-xl border border-slate-200">
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i> Greenply Marine
+        </span>
+        <span class="flex items-center gap-2 px-4 py-2 bg-slate-50 rounded-xl border border-slate-200">
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i> Hafele / Hettich
+        </span>
+        <span class="flex items-center gap-2 px-4 py-2 bg-slate-50 rounded-xl border border-slate-200">
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i> Asian Paints Royale
+        </span>
+        <span class="flex items-center gap-2 px-4 py-2 bg-slate-50 rounded-xl border border-slate-200">
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i> Saint-Gobain Gyproc
+        </span>
+        <span class="flex items-center gap-2 px-4 py-2 bg-slate-50 rounded-xl border border-slate-200">
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i> Jindal Aluminium
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. Recent Projects Gallery with Filter & Lightbox -->
+  <section id="portfolio" class="py-24 bg-slate-50 scroll-mt-20 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div>
+          <span class="text-xs uppercase tracking-widest font-heading font-bold text-brand-gold block mb-2">
+            Real Work Catalogue
+          </span>
+          <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-slate-900">
+            Recent Completed Projects
+          </h2>
+          <p class="text-slate-600 mt-2 text-sm sm:text-base">
+            Click on any photo to inspect high-definition craftsmanship.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap gap-2 font-heading text-xs font-bold uppercase tracking-wider">
+          <button data-filter="all" class="gallery-filter-btn px-4 py-2.5 rounded-xl bg-emerald-950 text-white border border-brand-gold transition">All</button>
+          <button data-filter="kitchen" class="gallery-filter-btn px-4 py-2.5 rounded-xl bg-white text-slate-700 border border-slate-200 hover:border-brand-gold transition">Kitchens</button>
+          <button data-filter="wardrobe" class="gallery-filter-btn px-4 py-2.5 rounded-xl bg-white text-slate-700 border border-slate-200 hover:border-brand-gold transition">Wardrobes</button>
+          <button data-filter="living" class="gallery-filter-btn px-4 py-2.5 rounded-xl bg-white text-slate-700 border border-slate-200 hover:border-brand-gold transition">Living & Ceilings</button>
+          <button data-filter="glass_civil" class="gallery-filter-btn px-4 py-2.5 rounded-xl bg-white text-slate-700 border border-slate-200 hover:border-brand-gold transition">UPVC & Glass</button>
+          <button data-filter="commercial" class="gallery-filter-btn px-4 py-2.5 rounded-xl bg-white text-slate-700 border border-slate-200 hover:border-brand-gold transition">Offices</button>
+        </div>
+      </div>
+
+      <!-- 9 Projects Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Project 1 -->
+        <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md hover:shadow-xl transition group lightbox-trigger cursor-zoom-in" data-category="kitchen" data-title="Modern Acrylic Island Kitchen - Sector 75 Noida">
+          <div class="aspect-[16/11] overflow-hidden bg-slate-100 relative">
+            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1000&q=80" alt="Modern Acrylic Island Kitchen" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+              <span class="bg-white/90 text-slate-900 px-3 py-1.5 rounded-full text-xs font-heading font-bold shadow-lg flex items-center gap-1.5">
+                <i data-lucide="zoom-in" class="w-4 h-4"></i> View Photo
+              </span>
+            </div>
+          </div>
+          <div class="p-5">
+            <span class="text-[10px] font-heading font-bold uppercase tracking-wider text-brand-gold">Modular Kitchen</span>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mt-1">Modern Acrylic Island Kitchen</h3>
+            <p class="text-xs text-slate-500 mt-1">Sector 75, Noida • Soft-close Hafele fittings & quartz stone</p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md hover:shadow-xl transition group lightbox-trigger cursor-zoom-in" data-category="wardrobe" data-title="Floor-to-Ceiling Profile Glass Wardrobe - Greater Noida West">
+          <div class="aspect-[16/11] overflow-hidden bg-slate-100 relative">
+            <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80" alt="Master Bedroom Wardrobe" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+              <span class="bg-white/90 text-slate-900 px-3 py-1.5 rounded-full text-xs font-heading font-bold shadow-lg flex items-center gap-1.5">
+                <i data-lucide="zoom-in" class="w-4 h-4"></i> View Photo
+              </span>
+            </div>
+          </div>
+          <div class="p-5">
+            <span class="text-[10px] font-heading font-bold uppercase tracking-wider text-brand-gold">Designer Wardrobe</span>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mt-1">Profile Glass Tinted Wardrobe</h3>
+            <p class="text-xs text-slate-500 mt-1">Greater Noida West • Warm interior sensor LEDs</p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md hover:shadow-xl transition group lightbox-trigger cursor-zoom-in" data-category="living" data-title="Gyproc False Ceiling & Cove Lights - Expressway Noida">
+          <div class="aspect-[16/11] overflow-hidden bg-slate-100 relative">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="Living Room False Ceiling" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+              <span class="bg-white/90 text-slate-900 px-3 py-1.5 rounded-full text-xs font-heading font-bold shadow-lg flex items-center gap-1.5">
+                <i data-lucide="zoom-in" class="w-4 h-4"></i> View Photo
+              </span>
+            </div>
+          </div>
+          <div class="p-5">
+            <span class="text-[10px] font-heading font-bold uppercase tracking-wider text-brand-gold">False Ceiling</span>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mt-1">Gyproc Ceiling & Warm LED Coves</h3>
+            <p class="text-xs text-slate-500 mt-1">Noida Expressway • Zero-crack finish with magnetic tracks</p>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md hover:shadow-xl transition group lightbox-trigger cursor-zoom-in" data-category="commercial" data-title="Corporate Glass Cabins - Sector 62 Noida">
+          <div class="aspect-[16/11] overflow-hidden bg-slate-100 relative">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Corporate Office Setup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+              <span class="bg-white/90 text-slate-900 px-3 py-1.5 rounded-full text-xs font-heading font-bold shadow-lg flex items-center gap-1.5">
+                <i data-lucide="zoom-in" class="w-4 h-4"></i> View Photo
+              </span>
+            </div>
+          </div>
+          <div class="p-5">
+            <span class="text-[10px] font-heading font-bold uppercase tracking-wider text-brand-gold">Commercial & Office</span>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mt-1">Corporate Office Glass Cabins</h3>
+            <p class="text-xs text-slate-500 mt-1">Sector 62, Noida • Aluminium slimline partitions</p>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md hover:shadow-xl transition group lightbox-trigger cursor-zoom-in" data-category="living" data-title="Wooden Louver Partition - Indirapuram">
+          <div class="aspect-[16/11] overflow-hidden bg-slate-100 relative">
+            <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=80" alt="Dining and Partition" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+              <span class="bg-white/90 text-slate-900 px-3 py-1.5 rounded-full text-xs font-heading font-bold shadow-lg flex items-center gap-1.5">
+                <i data-lucide="zoom-in" class="w-4 h-4"></i> View Photo
+              </span>
+            </div>
+          </div>
+          <div class="p-5">
+            <span class="text-[10px] font-heading font-bold uppercase tracking-wider text-brand-gold">Dining & Partition</span>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mt-1">Wooden Louver Divider & Dining</h3>
+            <p class="text-xs text-slate-500 mt-1">Indirapuram, Ghaziabad • Royale paint finish</p>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md hover:shadow-xl transition group lightbox-trigger cursor-zoom-in" data-category="kitchen" data-title="High Gloss Compact Modular Kitchen - Sector 78 Noida">
+          <div class="aspect-[16/11] overflow-hidden bg-slate-100 relative">
+            <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80" alt="Compact Modular Kitchen" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+              <span class="bg-white/90 text-slate-900 px-3 py-1.5 rounded-full text-xs font-heading font-bold shadow-lg flex items-center gap-1.5">
+                <i data-lucide="zoom-in" class="w-4 h-4"></i> View Photo
+              </span>
+            </div>
+          </div>
+          <div class="p-5">
+            <span class="text-[10px] font-heading font-bold uppercase tracking-wider text-brand-gold">Compact Kitchen</span>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mt-1">L-Shaped High Gloss Kitchen</h3>
+            <p class="text-xs text-slate-500 mt-1">Sector 78, Noida • BWP Marine Ply & Hafele fittings</p>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md hover:shadow-xl transition group lightbox-trigger cursor-zoom-in" data-category="glass_civil" data-title="Soundproof UPVC French Doors - Mahagun Moderne Noida">
+          <div class="aspect-[16/11] overflow-hidden bg-slate-100 relative">
+            <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=800&q=80" alt="UPVC Balcony Doors" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+              <span class="bg-white/90 text-slate-900 px-3 py-1.5 rounded-full text-xs font-heading font-bold shadow-lg flex items-center gap-1.5">
+                <i data-lucide="zoom-in" class="w-4 h-4"></i> View Photo
+              </span>
+            </div>
+          </div>
+          <div class="p-5">
+            <span class="text-[10px] font-heading font-bold uppercase tracking-wider text-brand-gold">UPVC & Windows</span>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mt-1">Soundproof UPVC French Balcony Slider</h3>
+            <p class="text-xs text-slate-500 mt-1">Mahagun Moderne, Noida • Double glazed acoustic glass</p>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md hover:shadow-xl transition group lightbox-trigger cursor-zoom-in" data-category="glass_civil" data-title="10mm Toughened Glass Shower - Cleo County Noida">
+          <div class="aspect-[16/11] overflow-hidden bg-slate-100 relative">
+            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="Glass Shower and Bathroom" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+              <span class="bg-white/90 text-slate-900 px-3 py-1.5 rounded-full text-xs font-heading font-bold shadow-lg flex items-center gap-1.5">
+                <i data-lucide="zoom-in" class="w-4 h-4"></i> View Photo
+              </span>
+            </div>
+          </div>
+          <div class="p-5">
+            <span class="text-[10px] font-heading font-bold uppercase tracking-wider text-brand-gold">Glass & Bathroom</span>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mt-1">Toughened Glass Shower Cubicle</h3>
+            <p class="text-xs text-slate-500 mt-1">Cleo County, Noida • SS 304 hardware & LED vanity mirror</p>
+          </div>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="portfolio-card bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-md hover:shadow-xl transition group lightbox-trigger cursor-zoom-in" data-category="glass_civil" data-title="CNC Laser Cut Gate - Gaur City Greater Noida">
+          <div class="aspect-[16/11] overflow-hidden bg-slate-100 relative">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Safety Gate and Grill" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-slate-950/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+              <span class="bg-white/90 text-slate-900 px-3 py-1.5 rounded-full text-xs font-heading font-bold shadow-lg flex items-center gap-1.5">
+                <i data-lucide="zoom-in" class="w-4 h-4"></i> View Photo
+              </span>
+            </div>
+          </div>
+          <div class="p-5">
+            <span class="text-[10px] font-heading font-bold uppercase tracking-wider text-brand-gold">Fabrication & Gate</span>
+            <h3 class="font-heading font-bold text-lg text-slate-900 mt-1">Modern CNC Laser-Cut Safety Gate</h3>
+            <p class="text-xs text-slate-500 mt-1">Gaur City, Greater Noida • Anti-rust powder coat finish</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-12 text-center">
+        <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir,%20please%20share%20your%20full%20work%20catalogue%20photos" target="_blank" class="inline-flex items-center gap-2 btn-whatsapp px-8 py-4 rounded-xl text-sm font-heading font-bold shadow-xl hover:scale-105 transition">
+          <i data-lucide="message-circle" class="w-5 h-5"></i>
+          <span>View 100+ More Photos on WhatsApp</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 13. Client Reviews from Delhi NCR & Noida -->
+  <section class="py-20 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs uppercase tracking-widest font-heading font-bold text-brand-gold block mb-2">
+          Verified Feedback
+        </span>
+        <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-slate-900">
+          What Homeowners Say About Hashim
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="p-7 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 mb-3 text-sm">
+              ★★★★★
+            </div>
+            <p class="text-sm text-slate-700 leading-relaxed italic">
+              "Hashim delivered our 3BHK flat in Sector 75 Noida within 42 days, 3 days ahead of schedule! The acrylic kitchen and profile wardrobe finish is flawless. Very honest person."
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-200 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-brand text-brand-gold font-heading font-bold flex items-center justify-center text-sm">
+              VS
+            </div>
+            <div>
+              <div class="font-heading font-bold text-sm text-slate-900">Vikramaditya Sharma</div>
+              <div class="text-xs text-slate-500">Golf City, Sector 75 Noida</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-7 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 mb-3 text-sm">
+              ★★★★★
+            </div>
+            <p class="text-sm text-slate-700 leading-relaxed italic">
+              "Most interior firms don't do UPVC or iron gates, but Home Space Interiors handled our entire villa — false ceiling, gate grill, and modular kitchen under one single roof."
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-200 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-brand text-brand-gold font-heading font-bold flex items-center justify-center text-sm">
+              MK
+            </div>
+            <div>
+              <div class="font-heading font-bold text-sm text-slate-900">Manish Kumar & Family</div>
+              <div class="text-xs text-slate-500">Gaur City, Greater Noida West</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-7 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 mb-3 text-sm">
+              ★★★★★
+            </div>
+            <p class="text-sm text-slate-700 leading-relaxed italic">
+              "Honest guidance and total transparency with no contractor drama. Hashim showed us the Century BWP 710 marine ply stamps on site before fixing laminates. 10/10 recommended for anyone in NCR."
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-200 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-brand text-brand-gold font-heading font-bold flex items-center justify-center text-sm">
+              AK
+            </div>
+            <div>
+              <div class="font-heading font-bold text-sm text-slate-900">Ananya Kapoor</div>
+              <div class="text-xs text-slate-500">Shipra Sun City, Indirapuram</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 14. Interactive FAQ Section -->
+  <section id="faq" class="py-20 bg-slate-50 scroll-mt-20 border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-12">
+        <span class="text-xs uppercase tracking-widest font-heading font-bold text-brand-gold block mb-2">
+          Clear Answers
+        </span>
+        <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-slate-900">
+          Frequently Asked Questions
+        </h2>
+      </div>
+
+      <div class="space-y-4">
+        
+        <div class="faq-item bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+          <button class="faq-btn w-full p-5 text-left font-heading font-bold text-slate-900 flex items-center justify-between hover:bg-slate-50 transition">
+            <span>Is the initial site visit and quotation free in Noida & Delhi NCR?</span>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-slate-500 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Yes, 100% free with zero obligation. Hashim visits your property, takes exact measurements, discusses your requirements, and shares an itemized quotation along with layout suggestions.
+          </div>
+        </div>
+
+        <div class="faq-item bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+          <button class="faq-btn w-full p-5 text-left font-heading font-bold text-slate-900 flex items-center justify-between hover:bg-slate-50 transition">
+            <span>Which brands of plywood, hardware, and paints do you use?</span>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-slate-500 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            We use top quality certified brands: BWP/BWR Grade 710 marine plywood (Century, Greenply), hardware fittings by Hafele, Hettich, Ebco or Blum, and Asian Paints Royale for walls. Original warranty cards are provided at handover.
+          </div>
+        </div>
+
+        <div class="faq-item bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+          <button class="faq-btn w-full p-5 text-left font-heading font-bold text-slate-900 flex items-center justify-between hover:bg-slate-50 transition">
+            <span>How much time does a full 2BHK or 3BHK interior take?</span>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-slate-500 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            A standard 2BHK takes around 30 to 40 working days. A 3BHK takes 40 to 50 working days. For modular kitchen alone, it takes just 15 to 20 days.
+          </div>
+        </div>
+
+        <div class="faq-item bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+          <button class="faq-btn w-full p-5 text-left font-heading font-bold text-slate-900 flex items-center justify-between hover:bg-slate-50 transition">
+            <span>Can you also handle fabrication, UPVC windows, and civil bathroom work?</span>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-slate-500 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-answer hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Yes, that is our biggest strength! Unlike many designers who only do woodwork, we have in-house master teams for MS/SS fabrication, main gates & grills, UPVC soundproof windows, aluminium partitions, glass shower cubicles, and complete civil bathroom tile/plumbing remodeling.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 15. Contact & Consultation Section -->
+  <section id="contact" class="py-24 bg-brand text-white scroll-mt-20 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Direct Info -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-block px-3.5 py-1 bg-white/10 rounded-full text-brand-gold text-xs font-heading font-bold uppercase tracking-wider">
+            Direct Contact Details
+          </div>
+
+          <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-white leading-tight">
+            Ready to Build Your Dream Home? <br>
+            <span class="text-brand-gold">Talk Directly to Hashim.</span>
+          </h2>
+
+          <p class="text-slate-200 text-sm sm:text-base leading-relaxed font-light">
+            Give us a call or send a WhatsApp message with your floor plan. We will schedule a free on-site measurement and 3D consultation anywhere in Delhi NCR or Noida.
+          </p>
+
+          <div class="space-y-4 pt-2">
+            <a href="tel:+919711257834" class="flex items-center gap-4 p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-brand-gold transition group">
+              <div class="w-12 h-12 rounded-xl bg-brand-gold/20 text-brand-gold flex items-center justify-center group-hover:scale-110 transition">
+                <i data-lucide="phone-call" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <div class="text-xs text-slate-300 uppercase tracking-wider">Direct Phone Call</div>
+                <div class="font-heading font-bold text-lg text-white">+91 9711257834</div>
+              </div>
+            </a>
+
+            <a href="https://wa.me/917292043299" target="_blank" class="flex items-center gap-4 p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-emerald-400 transition group">
+              <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center group-hover:scale-110 transition">
+                <i data-lucide="message-circle" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <div class="text-xs text-slate-300 uppercase tracking-wider">Direct WhatsApp Chat</div>
+                <div class="font-heading font-bold text-lg text-white">+91 7292043299</div>
+              </div>
+            </a>
+
+            <div class="flex items-center gap-4 p-4 rounded-2xl bg-white/5 border border-white/10">
+              <div class="w-12 h-12 rounded-xl bg-brand-gold/20 text-brand-gold flex items-center justify-center">
+                <i data-lucide="mail" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <div class="text-xs text-slate-300 uppercase tracking-wider">Email Address</div>
+                <div class="font-heading font-bold text-base text-white">hashimlv01@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Fast Form -->
+        <div class="lg:col-span-6">
+          <div class="bg-white rounded-3xl p-8 sm:p-10 shadow-2xl text-slate-900">
+            <h3 class="font-heading text-2xl font-extrabold text-slate-900">
+              Book Free Site Visit
+            </h3>
+            <p class="text-xs text-slate-500 mt-1 mb-6">
+              Hashim visits with catalogs and laser measuring tool. 100% free.
+            </p>
+
+            <form class="lead-form space-y-4">
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Your Full Name *</label>
+                <input type="text" name="name" required placeholder="e.g. Amit Verma" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">WhatsApp Phone Number *</label>
+                <input type="tel" name="phone" required placeholder="e.g. 9871123456" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand transition">
+              </div>
+
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Service</label>
+                  <select name="service" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-3 text-xs text-slate-900 focus:outline-none focus:border-brand transition">
+                    <option value="Complete Home Interior" selected>Complete Turnkey</option>
+                    <option value="Modular Kitchen">Modular Kitchen</option>
+                    <option value="Designer Wardrobe">Wardrobe</option>
+                    <option value="False Ceiling & Paint">False Ceiling</option>
+                    <option value="UPVC & Aluminium">UPVC / Windows</option>
+                    <option value="Civil Renovation">Civil Renovation</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">City / Region</label>
+                  <select name="city" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-3 text-xs text-slate-900 focus:outline-none focus:border-brand transition">
+                    <option value="Noida" selected>Noida</option>
+                    <option value="Greater Noida West">Gr. Noida West</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Indirapuram / Ghaziabad">Indirapuram</option>
+                  </select>
+                </div>
+              </div>
+
+              <button type="submit" class="w-full btn-emerald py-4 rounded-xl text-xs font-heading font-bold uppercase tracking-wider flex items-center justify-center gap-2 shadow-xl mt-3">
+                <i data-lucide="calendar-check" class="w-4 h-4 text-brand-gold"></i>
+                <span>Confirm Free Site Visit with Hashim</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 16. Footer -->
+  <footer class="bg-brand-dark text-slate-400 py-12 border-t border-white/10 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-brand text-brand-gold rounded-xl border border-brand-gold flex items-center justify-center font-heading font-extrabold text-lg">
+          HS
+        </div>
+        <div>
+          <div class="font-heading font-bold text-white text-sm">HOME SPACE INTERIORS</div>
+          <div class="text-[11px] text-slate-400">Hashim • Interior Designer & Consultant</div>
+        </div>
+      </div>
+
+      <div class="text-center md:text-right">
+        <div>© 2026 Home Space Interiors. All Rights Reserved.</div>
+        <div class="text-brand-gold mt-1 font-medium">Delhi NCR | Noida (U.P.) • Phone: +91 9711257834 • WhatsApp: +91 7292043299</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 17. Floating WhatsApp Pill with Pulse Animation -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <a href="https://wa.me/917292043299?text=Hi%20Hashim%20Sir!%20I%20am%20interested%20in%20Home%20Space%20Interiors.%20Please%20share%20details." target="_blank" class="wa-float-btn bg-[#25D366] text-white p-4 rounded-full shadow-2xl flex items-center gap-2 hover:scale-110 transition duration-300 group" aria-label="WhatsApp Hashim">
+      <i data-lucide="message-circle" class="w-7 h-7"></i>
+      <span class="hidden md:inline font-heading font-bold text-xs pr-1">Chat with Hashim</span>
+    </a>
+  </div>
+
+  <!-- 18. Video Player Modal -->
+  <div id="video-modal" class="hidden fixed inset-0 z-50 bg-slate-950/95 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="relative w-full max-w-4xl bg-slate-900 rounded-3xl overflow-hidden shadow-2xl border border-white/20">
+      
+      <!-- Video Header -->
+      <div class="flex items-center justify-between p-4 border-b border-slate-800">
+        <div class="flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span class="font-heading font-bold text-white text-sm">Live Site Walkthrough Tour</span>
+        </div>
+        
+        <!-- Tabs for Switching Videos -->
+        <div class="hidden sm:flex items-center gap-2 text-xs font-heading">
+          <button class="video-tab-btn px-3 py-1 rounded-lg bg-brand-gold text-slate-900 font-bold" data-video="living-walkthrough.mp4">Living Room</button>
+          <button class="video-tab-btn px-3 py-1 rounded-lg bg-slate-800 text-slate-300" data-video="kitchen-walkthrough.mp4">Modular Kitchen</button>
+          <button class="video-tab-btn px-3 py-1 rounded-lg bg-slate-800 text-slate-300" data-video="bedroom-walkthrough.mp4">Master Bedroom</button>
+        </div>
+
+        <button id="video-modal-close" class="p-2 text-slate-400 hover:text-white rounded-lg">
+          <i data-lucide="x" class="w-6 h-6"></i>
+        </button>
+      </div>
+
+      <!-- Video Player -->
+      <div class="aspect-video bg-black flex items-center justify-center">
+        <video id="modal-video-player" controls playsinline class="w-full h-full object-contain">
+          <source src="living-walkthrough.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Mobile Tabs for Switching Videos -->
+      <div class="flex sm:hidden items-center justify-around p-3 bg-slate-950 border-t border-slate-800 text-xs font-heading">
+        <button class="video-tab-btn px-3 py-1 rounded-lg bg-brand-gold text-slate-900 font-bold" data-video="living-walkthrough.mp4">Living</button>
+        <button class="video-tab-btn px-3 py-1 rounded-lg bg-slate-800 text-slate-300" data-video="kitchen-walkthrough.mp4">Kitchen</button>
+        <button class="video-tab-btn px-3 py-1 rounded-lg bg-slate-800 text-slate-300" data-video="bedroom-walkthrough.mp4">Bedroom</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 19. Lightbox Image Modal -->
+  <div id="lightbox-modal" class="hidden fixed inset-0 z-50 lightbox-overlay flex items-center justify-center p-4">
+    <div class="relative max-w-5xl w-full flex flex-col items-center">
+      <button id="lightbox-close" class="absolute -top-12 right-0 text-white p-2 hover:text-brand-gold transition">
+        <i data-lucide="x" class="w-8 h-8"></i>
+      </button>
+      <div class="bg-black/40 rounded-3xl overflow-hidden border border-white/20 shadow-2xl max-h-[85vh] flex items-center justify-center">
+        <img id="lightbox-img" src="" alt="Enlarged Project Photo" class="max-h-[80vh] w-auto object-contain rounded-2xl">
+      </div>
+      <div id="lightbox-title" class="text-white font-heading font-bold text-sm sm:text-base mt-4 text-center">
+        Project Details
+      </div>
+    </div>
+  </div>
+
+  <!-- 20. Success Toast -->
+  <div id="success-toast" class="hidden fixed top-24 right-6 z-50 bg-emerald-900 text-white px-5 py-3.5 rounded-2xl shadow-2xl border border-emerald-500/50 flex items-center gap-3">
+    <i data-lucide="check-circle" class="w-5 h-5 text-emerald-400"></i>
+    <span class="text-xs font-semibold">Opening WhatsApp with Hashim...</span>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="app.js"></script>
+</body>
+</html>
