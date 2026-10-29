@@ -1,7 +1,7 @@
 // ==========================================================================
 // HOME SPACE INTERIORS - Interactive Master Script
 // Founder: Hashim (Interior Designer & Consultant)
-// Phone: +91 9711257834 | WhatsApp: +91 7292043299 | Delhi NCR & Noida
+// Phone: +91 9711257834 | WhatsApp: +91 9711257834 | Delhi NCR & Noida
 // ==========================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const msg = encodeURIComponent(
         `Hi Hashim Sir! I am interested in your ${data.title} look (${data.location}). Please share quotation details.`
       );
-      roomDisplayWa.href = `https://wa.me/917292043299?text=${msg}`;
+      roomDisplayWa.href = `https://wa.me/919711257834?text=${msg}`;
     }
   }
 
@@ -438,7 +438,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const waMsg = encodeURIComponent(
         `Hi Hashim Sir! I am planning my home interior with Home Space Interiors:\n• Property: ${configText}\n• Scope: ${scopeText}\n• Finish: ${tierText}\nPlease schedule a free site visit and share recent executed project photos.`
       );
-      calcWaBtn.href = `https://wa.me/917292043299?text=${waMsg}`;
+      calcWaBtn.href = `https://wa.me/919711257834?text=${waMsg}`;
     }
   }
 
@@ -518,7 +518,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const text = encodeURIComponent(
         `Hi Hashim Sir! My name is ${name} (${phone}). I require ${service} in ${city}. Please contact me to schedule a free 3D layout site consultation.`
       );
-      window.open(`https://wa.me/917292043299?text=${text}`, '_blank');
+      window.open(`https://wa.me/919711257834?text=${text}`, '_blank');
       form.reset();
     });
   });
